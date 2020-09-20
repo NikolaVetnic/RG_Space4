@@ -5,7 +5,7 @@ import mars.drawingx.drawing.DrawingUtils;
 import mars.drawingx.drawing.View;
 import mars.drawingx.gadgets.annotations.GadgetAnimation;
 
-public class Main4 implements Drawing {
+public class Main3 implements Drawing {
 	
 	public static final int IMG_W = 640;
 	public static final int IMG_H = 480;
