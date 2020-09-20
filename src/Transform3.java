@@ -15,6 +15,20 @@ public class Transform3 {
 	}
 	
 	
+	// angle conversions
+	static double turnToRad(double turn) { return turn * (2 * Math.PI);     }
+	
+	static double turnToDeg(double turn) { return turn * 360.0;             }
+	
+	static double radToTurn(double rad)  { return rad / (2 * Math.PI);      }
+	
+	static double radToDeg (double rad)  { return rad * (180.0 * Math.PI);  }
+	
+	static double degToTurn(double deg)  { return deg / 360.0;              }
+
+	static double degToRad (double deg)  { return (deg / 180.0) * Math.PI;  }
+	
+	
 	// methods
 	void nullify() {
 		
